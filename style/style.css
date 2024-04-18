@@ -1,0 +1,237 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav {
+    background: #322E41;
+}
+
+.nav_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_list {
+    list-style: none;
+    display: flex;
+}
+
+.nav_link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: #fff;
+    text-decoration: none;
+    padding: 23px 18px;
+    display: block;
+    transition: 0.5s;
+}
+
+.nav_link:hover {
+    background-color: #fff;
+    color: #D47300;
+}
+
+.intro {
+    background-image: url(../images/intro_img.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.intr_title {
+    margin-bottom: 15px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58.59px;
+}
+
+.intro_text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+}
+
+.intro_text span {
+    font-weight: 700;
+}
+
+.main {
+    background-color: #EBEBEB;
+}
+
+.nike_left {
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 15px;
+    max-width: 540px;
+    width: 100%;
+}
+
+.nike_title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.78px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #2C2A2A;
+}
+
+.nike_text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: #9B9B9B;
+}
+
+.nike_box {
+    display: flex;
+    gap: 30px;
+    transform: translateY(-30px);
+}
+
+.nike_card {
+    background: #FFFFFF;
+    border-radius: 6px;
+    width: 255px;
+    text-align: center;
+    padding: 15px;
+}
+
+.nike_card_img {
+    border: 2px solid #D47300;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.nike_card_title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    margin: 12px 0 10px;
+    color: #2C2A2A;
+}
+
+.nike_card_text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #9B9B9B;
+}
+
+.nike_right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer {
+    background: #322E41;
+    padding: 40px 0;
+}
+
+.footer_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_form {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+    gap: 10px;
+}
+
+.footer_input,
+.footer_textarea {
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.footer_textarea {
+    resize: unset;
+    height: 86px;
+}
+
+.footer_btn {
+    background: #544294;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    padding: 9px 0;
+    cursor: pointer;
+}
+
+.footer_info {
+    display: flex;
+    gap: 70px;
+}
+
+.footer_link {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer_list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_link:hover {
+    color: #D47300;
+}
+
+.footer_social {
+    display: flex;
+    gap: 40px;
+}
+
+.menu {
+    background-color: unset;
+    border: none;
+    display: none;
+}
+
+.menu img {
+    width: 30px;
+}

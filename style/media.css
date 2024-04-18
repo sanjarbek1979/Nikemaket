@@ -1,0 +1,120 @@
+@media(max-width:1140px) {
+    .intro {
+        height: 550px;
+    }
+
+    .nike_box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nike_right {
+        max-width: 540px;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media(max-width:1000px) {
+    .intro {
+        height: 500px;
+    }
+}
+
+@media(max-width:900px) {
+    .intro {
+        height: 450px;
+    }
+
+    .nav {
+        padding: 15px 0;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .nav_list {
+        display: none;
+    }
+
+    .footer_info {
+        gap: 30px;
+    }
+}
+
+@media(max-width:800px) {
+    .intro {
+        height: 400px;
+    }
+
+    .footer_box {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer {
+        padding: 25px 0;
+    }
+}
+
+@media(max-width:700px) {
+    .intro {
+        height: 350px;
+    }
+
+    .nike_left img {
+        width: 100%;
+    }
+    .intr_title {
+        font-size: 45px;
+        line-height: 100%;
+        margin-bottom: 10px;
+    }
+    .logo img {
+        width: 80px;
+    }
+}
+
+@media(max-width:600px) {
+    .intro {
+        height: 300px;
+    }
+}
+@media(max-width:500px) {
+    .intro {
+        height: 250px;
+    }
+    .nike_title {
+        margin: 10px 0;
+        font-size: 18px;
+        text-align: center;
+        line-height: 100%;
+    }
+    .nike_text {
+        font-size: 14px;
+        text-align: center;
+    }
+    .intr_title {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+    .intro_text{
+        font-size: 16px;
+        line-height: 100%;
+    }
+}
+@media(max-width:400px) {
+     .intro {
+        height: 220px;
+    }
+    .nike_title {
+        font-size: 16px;
+    }
+    .nike_text {
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
